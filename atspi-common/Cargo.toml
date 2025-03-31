@@ -24,8 +24,8 @@
   serde                = "1.0"
   static_assertions    = "1.1.0"
   zbus                 = { version = "5.5", default-features = false, features = ["tokio"]}
-  zbus-lockstep        = { version = "0.5.0" }
-  zbus-lockstep-macros = { version = "0.5.0" }
+  zbus-lockstep = { git = "https://github.com/NilsIrl/zbus-lockstep.git", rev = "ce2f093f68e5a358c5dfdf9f05643f92dc3c69be" }
+  zbus-lockstep-macros = { git = "https://github.com/NilsIrl/zbus-lockstep.git", rev = "ce2f093f68e5a358c5dfdf9f05643f92dc3c69be" }
   zbus_names           = "4.0"
   zvariant             = { version = "5.1", default-features = false }
 
